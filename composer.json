@@ -1,0 +1,24 @@
+{
+	"name": "filsh/yii2-autocomplete",
+	"description": "Autocomplete active form field for yii2 framework",
+	"keywords": ["yii", "autocomplete"],
+	"type": "library",
+	"support": {
+		"email": "imaliy.filsh@gmail.com",
+		"source": "https://github.com/filsh/yii2-autocomplete"
+	},
+	"authors": [
+		{
+			"name": "Igor Maliy",
+			"email": "imaliy.filsh@gmail.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*",
+		"filsh/jquery-autocomplete": "*"
+	},
+	"autoload": {
+		"psr-0": { "yii\\autocomplete\\": "" }
+	},
+	"target-dir": "yii/autocomplete"
+}
