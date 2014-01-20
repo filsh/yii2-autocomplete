@@ -2,8 +2,6 @@
 
 namespace yii\autocomplete;
 
-use \Yii;
-
 class AutocompleteAsset extends \yii\web\AssetBundle
 {
     public $sourcePath = '@vendor/filsh/jquery-autocomplete';
@@ -12,9 +10,7 @@ class AutocompleteAsset extends \yii\web\AssetBundle
         'src/jquery.autocomplete.js'
     ];
     
-    public $css = [
-        'content/styles.css'
-    ];
+    public $css = [];
     
     public $depends = [
         'yii\web\JqueryAsset'
