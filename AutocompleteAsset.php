@@ -7,7 +7,7 @@ class AutocompleteAsset extends \yii\web\AssetBundle
     public $sourcePath = '@vendor/filsh/jquery-autocomplete';
 
     public $js = [
-        'src/jquery.autocomplete.js'
+        'dist/jquery.autocomplete.min.js'
     ];
     
     public $css = [];
